@@ -118,11 +118,11 @@ Eles desempenham um papel importante na formação de ligações químicas e no 
 **Exemplo: cobre (Cu)**
 
 O cobre possui número atômico 29 e configuração eletrônica:
-
+$$
 \[
 1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,3d^{10}\,4s^1
 \]
-
+$$
 Seu elétron mais externo ocupa o orbital 4s.
 
 Essa característica contribui para seu comportamento como excelente condutor elétrico.
@@ -148,38 +148,38 @@ A condutividade elétrica é uma propriedade física que indica a capacidade de 
 Quanto maior a condutividade elétrica, maior tende a ser a capacidade do material de conduzir corrente sob condições equivalentes.
 
 A condutividade é representada pela letra grega sigma:
-
+$$
 \[
 \sigma
 \]
-
+$$
 Sua unidade no Sistema Internacional é o siemens por metro:
-
+$$
 \[
 [\sigma]=S/m
 \]
-
+$$
 Onde:
 
 - S = siemens;
 - m = metro.
 
 O siemens é a unidade de condutância elétrica e corresponde ao inverso do ohm:
-
+$$
 \[
 1\,S=\frac{1}{\Omega}
 \]
-
+$$
 ## 4.2. O que é corrente elétrica?
 
 A corrente elétrica representa o movimento ordenado de cargas elétricas através de um material ou circuito.
 
 Sua representação matemática é:
-
+$$
 \[
 I=\frac{\Delta Q}{\Delta t}
 \]
-
+$$
 Onde:
 
 - I = corrente elétrica (A);
@@ -281,17 +281,17 @@ Sua principal característica é permitir o controle das propriedades elétricas
 A resistividade elétrica é uma propriedade física que indica o quanto um material oferece oposição à passagem da corrente elétrica.
 
 Sua representação é feita pela letra grega rho:
-
+$$
 \[
 \rho
 \]
-
+$$
 Sua unidade no Sistema Internacional é:
-
+$$
 \[
 [\rho]=\Omega\cdot m
 \]
-
+$$
 A resistividade é uma propriedade característica do material em determinadas condições de temperatura e composição.
 
 Quanto maior a resistividade, maior tende a ser a resistência elétrica de um corpo com as mesmas dimensões.
@@ -305,11 +305,11 @@ A resistência elétrica de um condutor depende de três fatores principais:
 - Área da seção transversal.
 
 A relação matemática é:
-
+$$
 \[
 \boxed{R=\rho\cdot\frac{L}{A}}
 \]
-
+$$
 Onde:
 
 | Símbolo | Grandeza | Unidade |
@@ -330,11 +330,11 @@ Essa equação permite compreender três situações:
 A condutividade e a resistividade são propriedades inversamente relacionadas.
 
 A fórmula é:
-
+$$
 \[
 \boxed{\sigma=\frac{1}{\rho}}
 \]
-
+$$
 Onde:
 
 - σ = condutividade elétrica (S/m);
@@ -352,11 +352,11 @@ O siemens (S) é a unidade de condutância elétrica.
 A condutância representa a facilidade com que um elemento permite a passagem da corrente elétrica.
 
 Sua relação com a resistência é:
-
+$$
 \[
 G=\frac{1}{R}
 \]
-
+$$
 Onde:
 
 - G = condutância (S);
@@ -365,15 +365,16 @@ Onde:
 Exemplo:
 
 Se um resistor apresenta resistência de 10 Ω, sua condutância é:
-
+$$
 \[
 G=\frac{1}{10}
 \]
-
+$$
+$$
 \[
 \boxed{G=0,1\,S}
 \]
-
+$$
 Isso significa que sua condutância é de 0,1 siemens.
 
 **Não confunda:** condutância é uma propriedade de um elemento ou componente elétrico, enquanto condutividade é uma propriedade física do material.
@@ -383,67 +384,68 @@ Isso significa que sua condutância é de 0,1 siemens.
 Além de S/m, existem unidades utilizadas em tabelas técnicas e cálculos de condutores.
 
 Uma delas é:
-
+$$
 \[
 \frac{S\cdot m}{mm^2}
 \]
-
+$$
 Essa unidade pode ser escrita de forma equivalente como:
-
+$$
 \[
 \frac{S\cdot m}{mm^2}
 =
 \frac{m}{\Omega\cdot mm^2}
 \]
-
+$$
 Ela é utilizada para expressar condutividade quando a seção transversal é representada em milímetros quadrados e o comprimento em metros.
 
 ## 8.1. Conversão entre m² e mm²
 
 Sabemos que:
-
+$$
 \[
 1\,m=1000\,mm
 \]
-
+$$
 Como estamos tratando de área, precisamos elevar essa relação ao quadrado:
-
+$$
 \[
 1\,m^2=(1000\,mm)^2
 \]
-
+$$
+$$
 \[
 \boxed{1\,m^2=1.000.000\,mm^2}
 \]
-
+$$
 Essa conversão é importante para evitar erros nos cálculos elétricos.
 
 ## 8.2. Conversão de S/m para S·m/mm²
 
 Considerando:
-
+$$
 \[
 1\,S/m
 \]
-
+$$
 Podemos escrever:
-
+$$
 \[
 1\,S/m=\frac{1\,S}{1\,m}
 \]
-
+$$
 Multiplicando numerador e denominador da expressão dimensional pela área apropriada:
-
+$$
 \[
 1\,S/m=10^{-6}\frac{S\cdot m}{mm^2}
 \]
-
+$$
 Portanto:
-
+$$
 \[
 \boxed{1\,S/m=0,000001\,S\cdot m/mm^2}
 \]
-
+$$
 Essa conversão é dimensionalmente equivalente, mas exige atenção para não confundir condutividade com condutância.
 
 # 9. Cálculos Resolvidos
@@ -460,34 +462,36 @@ Considere um fio de cobre com as seguintes características:
 | Temperatura de referência | 20 °C |
 
 A fórmula utilizada será:
-
+$$
 \[
 R=\rho\cdot\frac{L}{A}
 \]
+$$
 
 **Passo 1 — Substituir os valores:**
-
+$$
 \[
 R=0,0172\cdot\frac{10}{2,5}
 \]
-
+$$
 **Passo 2 — Resolver a divisão:**
-
+$$
 \[
 \frac{10}{2,5}=4
 \]
-
+$$
 **Passo 3 — Multiplicar:**
-
+$$
 \[
 R=0,0172\cdot4
 \]
-
+$$
 **Resultado:**
-
+$$
 \[
 \boxed{R=0,0688\,\Omega}
 \]
+$$
 
 O fio apresenta resistência aproximada de 0,0688 ohm, considerando os valores e as condições informados.
 
@@ -502,19 +506,21 @@ Dados:
 - ρ = 0,0172 Ω·mm²/m.
 
 Aplicando:
-
+$$
 \[
 R=0,0172\cdot\frac{10}{1,5}
 \]
-
+$$
+$$
 \[
 R=\frac{0,172}{1,5}
 \]
-
+$$
+$$
 \[
 \boxed{R\approx0,1147\,\Omega}
 \]
-
+$$
 Observe que a resistência aumentou quando a área transversal diminuiu.
 
 Isso acontece porque uma seção transversal menor oferece menos área para o transporte de cargas elétricas.
@@ -522,39 +528,40 @@ Isso acontece porque uma seção transversal menor oferece menos área para o tr
 ## 9.3. Calculando a condutividade do cobre
 
 Considerando a resistividade:
-
+$$
 \[
 \rho=0,0172\,\Omega\cdot mm^2/m
 \]
-
+$$
 A relação entre condutividade e resistividade é:
-
+$$
 \[
 \sigma=\frac{1}{\rho}
 \]
-
+$$
 Substituindo:
-
+$$
 \[
 \sigma=\frac{1}{0,0172}
 \]
-
+$$
+$$
 \[
 \boxed{\sigma\approx58,14\frac{m}{\Omega\cdot mm^2}}
 \]
-
+$$
 Como:
-
+$$
 \[
 1\,S=\frac{1}{\Omega}
 \]
-
+$$
 Podemos escrever:
-
+$$
 \[
 \boxed{\sigma\approx58,14\frac{S\cdot m}{mm^2}}
 \]
-
+$$
 Esse resultado corresponde à condutividade expressa na unidade adaptada para área em mm².
 
 # 10. Influência da Temperatura na Condutividade
